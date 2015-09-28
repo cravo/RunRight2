@@ -27,6 +27,7 @@
     <Content Include="loader.png" />
     <Content Include="phaser.js" />
     <Content Include="phaser.min.js" />
+    <Content Include="tiles.png" />
     <Content Include="title.png" />
     <Content Include="web.config" />
   </ItemGroup>
@@ -42,6 +43,7 @@
     <TypeScriptCompile Include="Preloader.ts" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="level1.json" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

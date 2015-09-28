@@ -13,7 +13,8 @@
 
             // Load assets
             this.load.image('logo', 'title.png');
-
+            this.load.tilemap('mapLevel1', 'level1.json', null, Phaser.Tilemap.TILED_JSON);
+            this.load.image('tiles', 'tiles.png');
 
         }
 
